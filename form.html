@@ -1,0 +1,29 @@
+<form>
+    <fieldset>
+      <legend>Create A New Flash Card</legend>
+      Front of Card:<br>
+      <input type="text" name="frontCard"><br>
+      Back of Card:<br>
+      <input type="text" name="backCard"><br>
+      <br>
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  <div class="flipCard">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <p> How is a Arrow Function used to simplifiy this function</p>
+          <p> function addTwo(num) </p>
+          <p>{ return num + 2;}</p>  
+          <p>addTwo(2);</p>
+          <div class="ui attached button">
+              <button id="delete">Delete</button><button>Edit</button>
+            </div>
+        </div>
+        <div class="flip-card-back">
+          <h1>Answer</h1> 
+          <p>const addTwo = (num) => num + 2;</p> 
+          <p>addTwo(2);</p>
+        </div>
+      </div>
+    </div>
