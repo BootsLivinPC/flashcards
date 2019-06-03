@@ -6,24 +6,33 @@
       <title>FlashCards</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-      
+      <link rel="stylesheet" type="text/css" href="semantic.css">
   </head>
   <body>
     <h1> Flash Cards for JavaScript and Beyond</h1>
     <hr/>
-    <button clas="ui button"id="new">Create Card</button>
+    <button class="ui button" id="new">Create Card</button>
+    <hr/>
+
     <div class="ui grid">
-      <div class="card" id="flashCard">
-        <div id="content q">
+      <div class="ui card" id="flashCard">
+        <div class="card">
+          <div class="content">
+            <div class="header">FlashCards</div>
+        <p id="content q">
         hello
-      </div>
-      <div id="content a">
+        </p>
+      <p id="content a">
         World
-      </div >
-      <button class="ui button" id="answer">Show answer</button>
+      </p >
+    </div class="extra content">
+    <div class="ui two buttons">
+      <div class="ui basic green button" id="answer">Show Answer</div>
+      <div class="ui basic blue button" id="next">Next Card</div>
       </div>
     </div>
-    
+    </div>
+  </div>
      
  
   <hr/>
